@@ -53,8 +53,7 @@ export async function signup(req, res) {
   httpOnly: true,
   secure: false, // true only in production with https
   sameSite: "lax", // important for cross-site cookies
-  path: "/", 
-  domain: "localhost" // don't include port!
+  path: "/"
 });
 
     res.status(201).json({ success: true, user: newUser });
@@ -90,8 +89,7 @@ export async function login(req, res) {
   httpOnly: true,
   secure: false, // true only in production with https
   sameSite: "lax", // important for cross-site cookies
-  path: "/", 
-  domain: "localhost" // don't include port!
+  path: "/"
 });
 
 
