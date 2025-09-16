@@ -6,7 +6,7 @@ import axios from "axios";
 // })
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:5001/api",
+  baseURL: "https://peer-chat-savb.onrender.com",
   withCredentials: true // send cookies automatically
 });
 

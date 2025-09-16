@@ -19,7 +19,7 @@ const app = express();
 // }))
 
 app.use(cors({
-  origin: "http://localhost:5173", // frontend origin
+  origin: "https://peer-chat-front.onrender.com", // frontend origin
   credentials: true
 }));
 
